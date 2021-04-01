@@ -1,1 +1,34 @@
 /* Global Styles / Reset */
+
+:root {
+  --clr-accent: hsla(20, 77%, 68%, 1); /* Peach */
+  --clr-primary: hsla(234, 50%, 20%, 1); /* Dark Navyish/Purple */
+  --clr-lightPrimary: hsla(234, 50%, 20%, 0.4); /* Dark Navyish/Purple */
+  --clr-white: hsla(0, 0%, 100%, 1);
+  --clr-gray: hsla(0, 0%, 50%, 1);
+  --clr-lightGray: hsla(0, 0%, 50%, 0.4);
+
+  --ff-primary: 'Poppins', sans-serif;
+  --font-size: 1.3125rem; /* 21px equivalent */
+  --font-weight: 400;
+
+  --smlSpacer: 1em;
+  --medSpacer: 2em;
+  --lrgSpacer: 3em;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
