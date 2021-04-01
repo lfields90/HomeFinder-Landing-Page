@@ -8,30 +8,202 @@
   <title>Home Finder Website</title>
 </head>
 <body>
-  <main>
+  <main class="container">
     <header>
+      <div class="navigation">
+        <img src="" alt="Site logo">
+        <nav>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </nav>
+        <div class="search tablet-navigation">
+          <input type="search">
+          <img src="images/" alt="Magnifying glass icon">
+        </div>
+        <p class="tablet-navigation">En</p>
+        <img class="tablet-navigation" src="" alt="Language selector icon">
+      </div>
 
+      <div class="hero-wrapper flex">
+        <article class="hero-intro">
+          <h1>We will find a perfect <span>Home</span> for you</h1>
+          <h5>We will match you with the best property</h5>
+          <img src="images/" alt="Tv icon">
+          <p>How it works?</p>
+        </article>
+        <article class="salary-selector">
+          <h3>What's your annual salary?</h3>
+          <h5>We will match best property for you.</h5>
+          <select name="salary" id="salary-select">
+            <option value="4060">$40,000 - $60,000</option>
+            <option value="6080">$60,000 - $80,000</option>
+            <option value="8010">$80,000 - $100,000</option>
+            <option value="1012">$100,000 - $120,000</option>
+            <option value="1214">$120,000 - $140,000</option>
+            <option value="1400">$140,000+</option>
+          </select>
+          <button>Get Started</button>
+        </article>
+      </div>
     </header>
 
-    <section class="technology">
-
+    <section class="technology flex">
+      <div>
+        <img src="images/" alt="Adobe XD logo">
+        <h4>Anywhere</h4>
+        <p>We have covered 520+ cities around the world.</p>
+      </div>
+      <div>
+        <img src="images/" alt="Sketch logo">
+        <h4>99% Accurate</h4>
+        <p>We have covered 520+ cities around the world.</p>
+      </div>
+      <div>
+        <img src="images/" alt="Figma logo">
+        <h4>24/7 Support</h4>
+        <p>We have covered 520+ cities around the world.</p>
+      </div>
+      <button>Our Story</button>
     </section>
 
     <section class="sold">
-
+      <h5 class="text-center">Top Selling</h5>
+      <h2 class="text-center">Recently Sold Houses</h2>
+      <div class="sold-card-wrapper flex">
+        <div class="sold-card">
+          <div class="sold-image"><img src="images/" alt="Image of interior/exterior of sold home"></div>
+          <div class="home-info">
+            <h4>Villa v2.0</h4>
+            <h4 class="price">$5.42k</h4>
+          </div>
+          <div class="home-location">
+            <img class="home-location-icon" src="images/" alt="GPS direction icon">
+            <p>Celina, Delaware</p>
+          </div>
+        </div>
+        <div class="sold-card">
+          <div class="sold-image"><img src="images/" alt="Image of interior/exterior of sold home"></div>
+          <div class="home-info">
+            <h4>Royal Home</h4>
+            <h4 class="price">$9.12k</h4>
+          </div>
+          <div class="home-location">
+            <img class="home-location-icon" src="images/" alt="GPS direction icon">
+            <p>Mesa, New Jersey</p>
+          </div>
+        </div>
+        <div class="sold-card">
+          <div class="sold-image"><img src="images/" alt="Image of interior/exterior of sold home"></div>
+          <div class="home-info">
+            <h4>Decorated Home</h4>
+            <h4 class="price">$7.68k</h4>
+          </div>
+          <div class="home-location">
+            <img class="home-location-icon" src="images/" alt="GPS direction icon">
+            <p>Richardson, California</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="home-selling">
-
+      <h5>Top Selling</h5>
+      <div class="selling-technique-wrapper flex">
+        <div class="selling-technique-info">
+          <h2>Three Easy Steps in Home Selling Techniques</h2>
+          <div>
+            <img src="images/" alt="">
+            <h4>Duis Aute Irure</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deserunt dicta deleniti iure.</p>
+          </div>
+          <div>
+            <img src="images/" alt="">
+            <h4>Excepteur Sint</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dicta deleniti iure.</p>
+          </div>
+          <div>
+            <img src="images/" alt="">
+            <h4>Culpa Mollite</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deserunt dicta deleniti iure.</p>
+          </div>
+        </div>
+        <div class="selling-technique-asset">
+          <div class="selling-card">
+            <div class="selling-card-image"></div>
+            <h4>Wallpapger Design Pattern</h4>
+            <p>Project Sky | by LaMonte Fields</p>
+            <button> <img src="images/" alt="Leaf icon"> </button>
+            <button> <img src="images/" alt="Map icon"> </button>
+            <button> <img src="images/" alt="Direction icon"> </button>
+            <img src="images/" alt="Building icon">
+            <p>23 Comments</p>
+            <img src="images/" alt="Heart Icon">
+          </div>
+          <!-- QUICK THOUGHT I may be able to move this card up into the above div. Then I'd be able to set selling-card relative and position the secondary perfectly -->
+          <div class="secondary-selling-card flex">
+            <img src="images/" alt="secondary selling card image">
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="customers">
-
+    <section class="customers text-center flex">
+      <div class="customer-wrapper">
+        <div class="customer-logo"> <img src="images/" alt="Dropbox logo"> </div>
+        <div class="customer-logo"> <img src="images/" alt="Airbnb logo"> </div>
+        <div class="customer-logo"> <img src="images/" alt="Asana logo"> </div>
+        <div class="customer-logo"> <img src="images/" alt="Mailchimp logo"> </div>
+      </div>
     </section>
 
-    <footer>
-
+    <footer class="text-center flex">
+      <div>
+        <h2>ofsp_ce</h2>
+        <p>Open an account in minutes, get full<br />Control for much longer</p>
+      </div>
+      <div class="footer-nav">
+        <h3>Company</h3>
+        <ul>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Mobile</li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h3>Contact</h3>
+        <ul>
+          <li>Help/FAQ</li>
+          <li>Press</li>
+          <li>Affiliates</li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h3>More</h3>
+        <ul>
+          <li>Airline Fees</li>
+          <li>Airlines</li>
+          <li>Low fare tips</li>
+        </ul>
+      </div>
+      <div class="social-links">
+        <div class="footer-links">
+          <button class="footer-social"> <img src="images/" alt="Facebook icon"> </button>
+          <button class="footer-social"> <img src="images/" alt="Instagram icon"> </button>
+          <button class="footer-social"> <img src="images/" alt="Twitter icon"> </button>
+        </div>
+        <h3>Discover our app</h3>
+        <div class="mobile-store-links">
+          <button class="footer-wide-social"> <img src="images/" alt="Google play icon"> </button>
+          <button class="footer-wide-social"> <img src="images/" alt="App store icon"> </button>
+        </div>
+      </div>
     </footer>
+
+    <section class="dev-signature text-center">
+      <p>All rights reserved @ofspace.co</p>
+    </section>
   </main>
 </body>
 </html>
