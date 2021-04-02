@@ -6,7 +6,7 @@
   --clr-accent: hsla(20, 77%, 68%, 1); /* Peach */
   --clr-white: hsla(0, 0%, 100%, 1);
   --clr-gray: hsla(0, 0%, 50%, 1);
-  --clr-lightGray: hsla(0, 0%, 50%, 0.4);
+  --clr-lightGray: hsla(0, 0%, 50%, 0.2);
 
   --ff-primary: 'Poppins', sans-serif;
   --font-size: 1.3125rem; /* 21px equivalent */
@@ -87,6 +87,11 @@ nav li {
   display: inline-block;
 }
 
+header,
+article,
+section {
+  padding: 0.5rem;
+}
 /* Utility Class Styles */
 
 .container {
@@ -134,4 +139,36 @@ nav li {
 
 .hero-wrapper {
   margin: 1em 0;
+}
+
+.hero-intro img,
+.hero-intro p {
+  display: inline-block;
+}
+
+.hero-intro p {
+  text-decoration: underline;
+}
+
+.hero-intro img {
+  /* Need to figure a way to center this vertically */
+}
+
+.salary-selector {
+  border-radius: 0.5rem;
+}
+
+.salary-selector select {
+  background-color: var(--clr-lightGray);
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+.salary-selector button {
+  border-radius: 1rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: var(--clr-accent);
 }
