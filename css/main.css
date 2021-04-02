@@ -112,3 +112,26 @@ nav li {
 }
 
 /* Header Styles */
+
+.tablet-navigation {
+  display: none;
+}
+
+#site-logo,
+.hamburger {
+  height: 1.5rem;
+}
+
+.hamburger {
+  margin-left: auto;
+}
+
+.navigation {
+  height: 4rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-wrapper {
+  margin: 1em 0;
+}
