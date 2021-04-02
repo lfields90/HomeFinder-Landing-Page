@@ -6,6 +6,7 @@
   --clr-accent: hsla(20, 77%, 68%, 1); /* Peach */
   --clr-white: hsla(0, 0%, 100%, 1);
   --clr-gray: hsla(0, 0%, 50%, 1);
+  --clr-medGray: hsla(0, 0%, 50%, 0.5);
   --clr-lightGray: hsla(0, 0%, 50%, 0.2);
 
   --ff-primary: 'Poppins', sans-serif;
@@ -92,6 +93,18 @@ article,
 section {
   padding: 0.5rem;
 }
+
+header,
+section,
+footer {
+  margin-bottom: var(--smlSpacer);
+}
+
+button {
+  padding: 0.4rem 1rem;
+  border: none;
+}
+
 /* Utility Class Styles */
 
 .container {
@@ -168,7 +181,30 @@ section {
 
 .salary-selector button {
   border-radius: 1rem;
-  padding: 0.4rem 1rem;
-  border: none;
   background-color: var(--clr-accent);
 }
+
+/* Technology Section Styles */
+
+.technology img {
+  width: 1.2rem;
+  padding: 0.3rem 0;
+}
+
+.technology #figma {
+  width: 0.9rem;
+}
+
+.technology button {
+  border-radius: 0.5rem;
+  border: 1px solid var(--clr-medGray);
+  background-color: var(--clr-white);
+  margin-top: var(--smlSpacer);
+  margin-bottom: var(--medSpacer);
+}
+
+.technology {
+  border-bottom: 1px solid var(--clr-lightGray);
+}
+
+/* Sold Section Styles */
