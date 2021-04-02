@@ -1,9 +1,9 @@
 /* Global Styles / Reset */
 
 :root {
-  --clr-accent: hsla(20, 77%, 68%, 1); /* Peach */
   --clr-primary: hsla(234, 50%, 20%, 1); /* Dark Navyish/Purple */
   --clr-lightPrimary: hsla(234, 50%, 20%, 0.4); /* Dark Navyish/Purple */
+  --clr-accent: hsla(20, 77%, 68%, 1); /* Peach */
   --clr-white: hsla(0, 0%, 100%, 1);
   --clr-gray: hsla(0, 0%, 50%, 1);
   --clr-lightGray: hsla(0, 0%, 50%, 0.4);
@@ -85,6 +85,30 @@ li {
 
 nav li {
   display: inline-block;
+}
+
+/* Utility Class Styles */
+
+.container {
+  margin-inline: auto;
+  width: min(85%, 55rem);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-accent {
+  background-color: var(--clr-accent);
+}
+
+.clr-accent {
+  color: var(--clr-accent);
 }
 
 /* Header Styles */
