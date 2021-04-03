@@ -129,6 +129,13 @@ button {
   color: var(--clr-accent);
 }
 
+.card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 2rem 2rem 0 0;
+}
+
 /* Header Styles */
 
 .tablet-navigation {
@@ -169,6 +176,7 @@ button {
 
 .salary-selector {
   border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }
 
 .salary-selector select {
@@ -208,3 +216,60 @@ button {
 }
 
 /* Sold Section Styles */
+
+.sold-card-wrapper {
+  margin-top: var(--smlSpacer);
+}
+
+.sold-card {
+  height: 15em;
+  border-radius: 2rem;
+  margin: var(--smlSpacer) 0;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+.sold-card h4 {
+  font-size: 1.2rem;
+}
+
+.sold-image {
+  height: 10.5em;
+}
+
+.card-1 {
+  background-image: url(../images/home-interior-1.jpg);
+}
+
+.card-2 {
+  background-image: url(../images/home-exterior.jpg);
+}
+
+.card-3 {
+  background-image: url(../images/home-interior-2.jpg);
+}
+
+.home-info {
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-info h4,
+.home-location p {
+  margin-bottom: 0;
+}
+
+.home-info,
+.home-location {
+  padding: 0 1em;
+  height: 2em;
+}
+
+.home-info .price {
+  margin-left: auto;
+  color: var(--clr-accent);
+}
+
+.home-location > * {
+  display: inline-block;
+  vertical-align: center;
+}
