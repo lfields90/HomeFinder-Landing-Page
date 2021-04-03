@@ -132,7 +132,7 @@ button {
 .card {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   border-radius: 2rem 2rem 0 0;
 }
 
@@ -177,19 +177,27 @@ button {
 .salary-selector {
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.salary-selector select,
+.salary-selector button {
+  margin-bottom: 0.5rem;
 }
 
 .salary-selector select {
   background-color: var(--clr-lightGray);
   border: none;
   border-radius: 0.3rem;
-  padding: 0.4rem;
-  margin-right: 0.5rem;
+  padding: 0.4rem 0 0.4rem 3.5rem;
+  width: 100%;
 }
 
 .salary-selector button {
   border-radius: 1rem;
   background-color: var(--clr-accent);
+  width: 100%;
 }
 
 /* Technology Section Styles */
@@ -246,6 +254,7 @@ button {
 
 .card-3 {
   background-image: url(../images/home-interior-2.jpg);
+  background-position: bottom;
 }
 
 .home-info {
@@ -272,4 +281,32 @@ button {
 .home-location > * {
   display: inline-block;
   vertical-align: center;
+}
+
+/* Footer Styles */
+
+.social-links {
+  margin-bottom: var(--medSpacer);
+}
+.social-links h3 {
+  margin-top: 0.8em;
+}
+.footer-links button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.mobile-store-links button {
+  height: 3rem;
+  width: 6rem;
+  border-radius: 3rem;
+}
+
+.tablet-footer {
+  display: none;
+}
+
+footer {
+  border-bottom: 1px solid var(--clr-lightGray);
 }
