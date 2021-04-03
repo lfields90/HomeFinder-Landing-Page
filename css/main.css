@@ -129,7 +129,8 @@ button {
   color: var(--clr-accent);
 }
 
-.card {
+.card,
+.selling-card-image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -179,6 +180,7 @@ button {
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
   padding: 0.8rem;
   text-align: center;
+  margin-top: var(--smlSpacer);
 }
 
 .salary-selector select,
@@ -281,6 +283,70 @@ button {
 .home-location > * {
   display: inline-block;
   vertical-align: center;
+}
+
+/* Home Selling Styles */
+
+.colored-icon-wrapper {
+  height: 2.5em;
+  width: 8em;
+  border-radius: 1rem;
+  background-color: yellow;
+  margin-right: 1em;
+}
+
+.selling-technique-info .flex {
+  flex-direction: row;
+}
+
+.colored-icon-wrapper {
+  align-items: center;
+}
+
+.selling-technique-asset {
+  margin-top: var(--medSpacer);
+}
+
+
+.selling-card {
+  height: 14em;
+  border-radius: 2rem;
+  margin: var(--smlSpacer) 0;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  padding: .5em;
+}
+
+.selling-card-image {
+  height: 6em;
+  background-image: url(../images/home-interior-1.jpg);
+  border-radius: 2rem;
+}
+
+.selling-card h4 {
+  font-size: 1rem;
+}
+
+.selling-card h4,
+.selling-card p {
+  margin: 0.5rem 0;
+}
+
+.selling-card button {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.selling-card-stats {
+  /* height: 2rem; */
+  background-color: pink;
+  display: inline-block;
+}
+
+/* Customers Styles */
+
+.customer-wrapper img {
+  height: 3rem;
 }
 
 /* Footer Styles */
